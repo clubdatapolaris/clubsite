@@ -328,6 +328,17 @@ body{
 }
 
 
+.media_events{
+    display: flex !important;
+  }
+  @media(max-width: 850px) {
+    .media_events{
+      display: block !important;
+
+    }             
+  }
+
+
 
 #stars {
     width: 1px;
