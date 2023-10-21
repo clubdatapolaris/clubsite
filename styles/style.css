@@ -330,13 +330,22 @@ body{
 
 .media_events{
     display: flex !important;
+    border-radius: 5px !important;
+  }
+
+  .media_events img{
+    border-radius: 5px !important;
   }
   @media(max-width: 850px) {
     .media_events{
       display: block !important;
+      
 
     }             
   }
+
+
+ 
 
 
 
